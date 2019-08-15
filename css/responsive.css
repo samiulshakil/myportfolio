@@ -1,0 +1,206 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+li.nav-item {
+    margin: 0px;
+    padding: 0;
+}
+
+.navbar-toggler {
+    border: 1px solid silver;
+    font-size: 23px;
+}
+
+.navbar-toggler-icons i {
+    color: #fff;
+}
+
+.navbar.navbar-expand-lg.menu-area.navbar-fixed-top i {
+    color: rgb(89, 87, 87);
+}
+
+.navbar.navbar-expand-lg.menu-area.navbar-fixed-top .navbar-nav .nav-item {
+    margin-left: 0px;
+}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+.navbar-dark .navbar-nav {
+    margin-left: auto;
+}
+
+li.nav-item {
+    margin: 0px;
+    padding: 0;
+}
+
+.navbar-toggler {
+    border: 1px solid silver;
+    font-size: 23px;
+}
+
+.navbar-toggler-icons i {
+    color: #fff;
+}
+
+.navbar.navbar-expand-lg.menu-area.navbar-fixed-top i {
+    color: rgb(89, 87, 87);
+}
+
+.navbar.navbar-expand-lg.menu-area.navbar-fixed-top .navbar-nav .nav-item {
+    margin-left: 0px;
+}
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+.navbar-dark .navbar-nav {
+    margin-left: auto;
+}
+
+li.nav-item {
+    margin: 0px;
+    padding: 0;
+}
+
+.banner-arrow.wow.infinite.bounce.animated {
+    margin-top: 40px;
+}
+
+.logo-area img {
+	max-width: 150px;
+	height: auto;
+}
+
+.social-margin {
+	margin-top: 30px;
+}
+
+.navbar-toggler {
+    border: 1px solid silver;
+    font-size: 23px;
+}
+
+.navbar-toggler-icons i {
+    color: #fff;
+}
+
+.navbar.navbar-expand-lg.menu-area.navbar-fixed-top i {
+    color: rgb(89, 87, 87);
+}
+
+.navbar.navbar-expand-lg.menu-area.navbar-fixed-top .navbar-nav .nav-item {
+    margin-left: 0px;
+}
+
+.about-left {
+    margin-bottom: 30px;
+}
+
+.about-right h4 {
+    text-align: center;
+}
+
+.social-media span i {
+	margin-bottom: 10px;
+}
+
+.banner-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #c5cad8;
+}
+
+.banner-type-writter h3 {
+    font-size: 30px;
+}
+
+.banner-type-writter .sub {
+    color: #fff;
+    font-size: 20px;
+}
+
+.banner-type-writter {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.banner-arrow.wow.infinite.bounce.animated {
+    margin-top: 0px;
+}
+
+.banner-image {
+    margin-top: -150px;
+}
+
+.banner-area {
+    position: relative;
+    background-image: url('../img/bg2.jpg');
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+    width: 100%;
+}
+
+.item.text-white.text-center p {
+	font-size: 20px;
+}
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.navbar-dark .navbar-nav {
+    margin-left: auto;
+}
+
+.logo-area img {
+	max-width: 100%;
+	height: auto;
+}
+
+li.nav-item {
+    margin: 0px;
+    padding: 0;
+}
+
+
+.navbar-toggler {
+    border: 1px solid silver;
+    font-size: 23px;
+}
+
+.navbar-toggler-icons i {
+    color: #fff;
+}
+
+.navbar.navbar-expand-lg.menu-area.navbar-fixed-top i {
+    color: rgb(89, 87, 87);
+}
+
+.navbar.navbar-expand-lg.menu-area.navbar-fixed-top .navbar-nav .nav-item {
+    margin-left: 0px;
+}
+
+ 
+}
+
+
