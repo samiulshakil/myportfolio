@@ -25,14 +25,19 @@
 
 //barfiller plugin
 
-    $('#bar1').barfiller({barColor: '#2f2f2f'});
-    $('#bar2').barfiller({barColor: '#2f2f2f'});
-    $('#bar3').barfiller({ barColor: '#2f2f2f' });
-    $('#bar4').barfiller({ barColor: '#2f2f2f',});
-    $('#bar5').barfiller({ barColor: '#2f2f2f', duration: 1000 });
-    $('#bar6').barfiller({ barColor: '#2f2f2f', duration: 1000 });
-    $('#bar7').barfiller({ barColor: '#2f2f2f', duration: 1000 });
-    $('#bar8').barfiller({ barColor: '#2f2f2f', duration: 1000 });
+var skillsTopOffset = $('#skill').offset().top;
+$(window).scroll(function(){
+    if(window.pageYOffset > skillsTopOffset - $(window).height()+300){
+        $('#bar1').barfiller({barColor: '#2f2f2f'});
+        $('#bar2').barfiller({barColor: '#2f2f2f'});
+        $('#bar3').barfiller({ barColor: '#2f2f2f' });
+        $('#bar4').barfiller({ barColor: '#2f2f2f',});
+        $('#bar5').barfiller({ barColor: '#2f2f2f', duration: 1000 });
+        $('#bar6').barfiller({ barColor: '#2f2f2f', duration: 1000 });
+        $('#bar7').barfiller({ barColor: '#2f2f2f', duration: 1000 });
+        $('#bar8').barfiller({ barColor: '#2f2f2f', duration: 1000 });
+    }
+});
 
 //timeline slider 
 
