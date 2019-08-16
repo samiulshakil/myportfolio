@@ -241,45 +241,10 @@ li.nav-item {
 }
 
 /*banner area css */
-.banner-image img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 3px solid #c5cad8;
-}
 
-.banner-type-writter h3 {
-    font-size: 30px;
-}
 
-.banner-type-writter .sub {
-    color: #fff;
-    font-size: 20px;
-}
 
-.banner-type-writter {
-    width: 100%;
-    height: 150px;
-    text-align: center;
-}
 
-.banner-arrow.wow.infinite.bounce.animated {
-    margin-top: 0px;
-}
-
-.banner-image {
-    margin-top: -150px;
-}
-
-.banner-area {
-    position: relative;
-    background-image: url('../img/bg2.jpg');
-    height: 640px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 0;
-    width: 100%;
-}
 
  
 }
