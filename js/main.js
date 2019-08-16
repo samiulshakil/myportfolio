@@ -157,7 +157,6 @@ var bar = $('.menu-area');
     });
 
 
-
 //counter up plugin
 $('.counter-number').each(function () {
     $(this).prop('Counter',0).animate({
