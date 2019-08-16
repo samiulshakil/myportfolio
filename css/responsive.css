@@ -123,13 +123,13 @@ li.nav-item {
 .banner-type-writter .sub {
     color: #fff;
     font-size: 20px;
-    margin-top: 30px;
 }
 
 .banner-type-writter {
     width: 100%;
     height: 150px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .banner-arrow.wow.infinite.bounce.animated {
@@ -241,10 +241,6 @@ li.nav-item {
 }
 
 /*banner area css */
-
-
-
-
 
  
 }
