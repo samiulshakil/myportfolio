@@ -142,7 +142,7 @@ li.nav-item {
 .banner-area {
     position: relative;
     background-image: url('../img/bg2.jpg');
-    height: 640px;
+    height: 660px;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 0;
