@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#navbar-spy" data-offset="0">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -33,11 +33,11 @@
 
         <!-- ==================== Header Area Start ==================== -->
         <header>
-            <div class="header-area">
-                <nav class=" navbar navbar-expand-lg menu-area">
+            <div class="header-area" id="home">
+                <nav class=" navbar navbar-expand-lg menu-area" id="navbar-spy">
                     <div class="container">
                     <!-- logo area -->
-                    <a href="#" class="navbar-brand logo-area">
+                    <a href="https://samiulshakil.github.io/portfolio/" class="navbar-brand logo-area">
                         <h3>shakil</h3>
                     </a>
 
@@ -48,25 +48,25 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link" href="#about">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Skill</a>
+                                    <a class="nav-link" href="#skill">Skill</a>
                                 </li>                                       
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Resume</a>
+                                    <a class="nav-link" href="#resume">Resume</a>
                                 </li>                                       
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Service</a>
+                                    <a class="nav-link" href="#service">Service</a>
                                 </li>                                       
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Work</a>
+                                    <a class="nav-link" href="#work">Work</a>
                                 </li>             
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link" href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -79,7 +79,7 @@
             <div class="banner-overlay"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-xl-12">
                         <div class="banner-content">
                             <!-- image with border -->
                             <div class="banner-image">
@@ -103,7 +103,7 @@
         <!-- ==================== Header Area End ==================== -->
 
         <!-- About Section Start -->
-        <section class="about">
+        <section class="about" id="about">
             <!-- About Header -->
             <div class="container">
                 <div class="row">
@@ -127,27 +127,21 @@
                         </div>
                         <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                             <div class="about-right">
-                                <h4 class="pb-3">I am Shakil, I'm a passionate Laravel Developer with 5 Years of Experience</h4>
-                                <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi sed do eiusm tempor incididunt ut labore et dolore magna.</p>
+                                <h4 class="pb-3">I am Shakil, I'm a passionate Laravel Developer with 1 Years of Experience</h4>
+                                <p class="pb-3">Hi This is Samiul Siddique Shakil. I'm a Laravel Developer.I'm Studying B.Sc in Computer Science Engineering at Daffodil International University.I have completed Diploma in Engineering from Comilla Polytechnic Institute.I'm a Web Design & Developer. I have 1 year experience.I'm from Daudkandi Cumilla</p>
                                 <div class="personal-info">
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <p><i class="fa fa-envelope"></i>Email: <span>Samiulshakil@gmail.com</span></p>
                                         </div>
                                         <div class="col-sm-6">
-                                            <p><i class="fa fa-phone"></i>Email: <span>samiulshakil@gmail.com</span></p>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <p><i class="fa fa-calendar"></i>Phone: <span>15-05-1999</span></p>
+                                            <p><i class="fa fa-calendar"></i>Birth-Date: <span>15-05-1999</span></p>
                                         </div>
                                         <div class="col-sm-6">
                                             <p><i class="fas fa-map-marker-alt"></i>Address: <span>Dhaka Bangladesh</span></p>
                                         </div>                                        
                                         <div class="col-sm-6">
-                                            <p><i class="fa fa-phone"></i>Map: <span>01815777942</span></p>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <p><i class="fas fa-map-marker-alt"></i>Location: <span>Dhaka Bangladesh</span></p>
+                                            <p><i class="fa fa-phone"></i>Phone: <span>01815777942</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -160,7 +154,6 @@
                                         <span><i class="fab fa-facebook-f"></i></span>
                                         <span><i class="fab fa-linkedin-in"></i></span>
                                         <span><i class="fab fa-github"></i></span>
-                                        <span><i class="fab fa-instagram"></i></span>
                                     </div>
                                 </div>
                             </div>
@@ -171,7 +164,7 @@
         </section>
 
         <!-- My Skill Section -->
-        <section class="my-skill">
+        <section class="my-skill" id="skill">
             <!-- About Header -->
             <div class="container">
                 <div class="row">
@@ -263,7 +256,7 @@
         </section>
 
         <!-- My Training and Education -->
-        <section class="my-education">
+        <section class="my-education" id="resume">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -324,7 +317,7 @@
         </section>
 
         <!-- My Services -->
-        <section class="my-services">
+        <section class="my-services" id="service">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -383,7 +376,7 @@
     </section>
 
         <!-- Portfolio -->
-        <section class="portfolio">
+        <section class="portfolio" id="work">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -412,31 +405,49 @@
                     <div class="col-xl-4 grid-item cat1 cat4 cat2">
                         <div class="screenshot-item">
                             <img src="img/work-one.jpg" alt="img">
+                            <div class="screenshot-item-hover">
+                                <a class="popup-image" href="img/work-one.jpg"><i class="fa fa-arrows-alt"></i></a><a href=""><i class="fas fa-link"></i></a>
+                            </div>
                         </div>
                         </div>
                         <div class="col-xl-4 grid-item cat2 cat3 cat5">
                             <div class="screenshot-item">
                                 <img src="img/work-five.jpg" alt="img">
+                                <div class="screenshot-item-hover">
+                                    <a class="popup-image" href="img/work-five.jpg"><i class="fa fa-arrows-alt"></i></a><a href=""><i class="fas fa-link"></i></a>
+                                </div>
                             </div>
                         </div>
                         <div class="col-xl-4 grid-item cat3">
                             <div class="screenshot-item">
                                 <img src="img/work-three.jpg" alt="img">
+                                <div class="screenshot-item-hover">
+                                    <a class="popup-image" href="img/work-three.jpg"><i class="fa fa-arrows-alt"></i></a><a href=""><i class="fas fa-link"></i></a>
+                                </div>
                             </div>
                         </div>                        
                         <div class="col-xl-4 grid-item cat4 cat2 cat1">
                             <div class="screenshot-item">
                                 <img src="img/work-four.jpg" alt="img">
+                                <div class="screenshot-item-hover">
+                                    <a class="popup-image" href="img/work-four.jpg"><i class="fa fa-arrows-alt"></i></a><a href=""><i class="fas fa-link"></i></a>
+                                </div>
                             </div>
                         </div>                        
                         <div class="col-xl-4 grid-item cat2 cat1 cat5">
                             <div class="screenshot-item">
                                 <img src="img/work-six.jpg" alt="img">
+                                <div class="screenshot-item-hover">
+                                    <a class="popup-image" href="img/work-six.jpg"><i class="fa fa-arrows-alt"></i></a><a href=""><i class="fas fa-link"></i></a>
+                                </div>
                             </div>
                         </div>                        
                         <div class="col-xl-4 grid-item cat4 cat2 cat5">
                             <div class="screenshot-item">
                                 <img src="img/work-two.jpg" alt="img">
+                                <div class="screenshot-item-hover">
+                                    <a class="popup-image" href="img/work-two.jpg"><i class="fa fa-arrows-alt"></i></a><a href=""><i class="fas fa-link"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -452,7 +463,7 @@
                         <div class="owl-carousel owl-carousel-testimonial  owl-theme">
                             <div class="item text-white text-center">
                                 <p class="text-white text-center"><i class="fas fa-quote-left"></i></p>
-                                <p class="text-white testimonial-description">“We were looking for a logo with a touch of modernism. Arlo grasped our needs and produced a stunning design.”</p>
+                                <p class="text-white testimonial-description">“We were looking for a Designer with a touch of modernism. Shaper our needs and produced a stunning design.”</p>
                                 <h5 class="text-white">Dhaka Bangladesh, <span class="capital">Web Developer</span></h5>
                             </div>
                         </div>
@@ -462,7 +473,7 @@
         </div>
         
         <!-- Testimonial -->
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
