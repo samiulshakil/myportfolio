@@ -32,10 +32,10 @@ $(window).scroll(function(){
         $('#bar2').barfiller({barColor: '#2f2f2f'});
         $('#bar3').barfiller({ barColor: '#2f2f2f' });
         $('#bar4').barfiller({ barColor: '#2f2f2f',});
-        $('#bar5').barfiller({ barColor: '#2f2f2f', duration: 1000 });
-        $('#bar6').barfiller({ barColor: '#2f2f2f', duration: 1000 });
-        $('#bar7').barfiller({ barColor: '#2f2f2f', duration: 1000 });
-        $('#bar8').barfiller({ barColor: '#2f2f2f', duration: 1000 });
+        $('#bar5').barfiller({ barColor: '#2f2f2f', });
+        $('#bar6').barfiller({ barColor: '#2f2f2f', });
+        $('#bar7').barfiller({ barColor: '#2f2f2f', });
+        $('#bar8').barfiller({ barColor: '#2f2f2f', });
     }
 });
 
